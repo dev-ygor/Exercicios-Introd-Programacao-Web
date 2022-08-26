@@ -1,0 +1,20 @@
+
+body {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  position: relative;
+  font-family: sans-serif;
+}
+
+a {
+  color: white;
+  padding: 7px;
+  background-color: cadetblue;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+h1 {
+  color: cadetblue;
+}
