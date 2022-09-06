@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina Inicial</title>
+
+  <link rel="stylesheet" href="CSS/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+
+
+ <header>
+ 
+   <nav>
+
+     <i id="hamburguer" class="material-symbols-outlined" onclick="menuClick()">menu</i>
+
+
+     <div id="container-h1">
+      <h1 id="nome_cliente">Restaurante do Zé</h1>
+     </div>
+
+   </nav>
+
+   <menu id="opcoes" >
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Perfil</a></li>
+      <li><a href="#">Sair</a></li>
+    </ul>
+  </menu>
+
+ </header>
+
+ <section >
+
+  <div class="salada-sopa">
+
+    <div class="container-bloco">
+      <div class="container-align">
+
+        <a href="PAGES/salada.html">
+          <img src="/ASSETS/salada.png" alt="icone de um prato com salada" id="saladaIcone">
+        </a>
+
+        <h3 class="nomeTopicos">Saladas Típicas</h3>
+      </div>
+
+    </div>
+
+    <div class="container-bloco">
+      <div class="container-align">
+
+        <a href="/PAGES/sopas.html">
+          <img src="/ASSETS/sopa.png" alt="icone de um prato de sopa" id="sopaIcone">
+        </a>
+
+        <h3 class="nomeTopicos">Sopas</h3>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="salada-sopa">
+
+    <div class="container-bloco">
+      <div class="container-align">
+
+        <a href="/PAGES/burguers.html">
+          <img src="/ASSETS/hamburguer.png" alt="icone de um prato de hamburguer" id="saladaIcone">
+        </a>
+        <h3 class="nomeTopicos">Burguers</h3>
+
+      </div>
+
+    </div>
+
+    <div class="container-bloco">
+      <div class="container-align">
+
+        <a href="/PAGES/principais.html">
+          <img src="/ASSETS/peixe.png" alt="icone de peixe" id="sopaIcone">
+        </a>
+        <h3 class="nomeTopicos">Principais</h3>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="salada-sopa">
+
+    <div class="container-bloco">
+      <div class="container-align">
+
+        <a href="/PAGES/bolo.html">
+          <img src="/ASSETS/pedaco-de-bolo.png" alt="icone de um prato com salada" id="saladaIcone">
+        </a>
+
+
+        <h3 class="nomeTopicos">Bolos</h3>
+      </div>
+
+    </div>
+
+    <div class="container-bloco">
+      <div class="container-align">
+
+        <a href="/PAGES/bebidas.html">
+          <img src="/ASSETS/drink.png" alt="icone de um copo de bebida" id="sopaIcone">
+        </a>
+
+        <h3 class="nomeTopicos">Bebidas</h3>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="salada-sopa">
+
+    <div class="container-footer">
+
+        <a href="/PAGES/jantar.html">
+          <h1 class="nomeTopicos">Jantar</h1>
+          <p>Almoço</p>
+        </a>
+
+    </div>
+
+    </div>
+
+  </div>
+
+ </section>
+
+ <script>
+    function menuClick() {
+        if (opcoes.style.display == 'none') {
+            opcoes.style.display = 'block'
+        }
+        else {
+          opcoes.style.display = 'none'
+        }
+    }
+
+ </script>
+  
+</body>
+</html>

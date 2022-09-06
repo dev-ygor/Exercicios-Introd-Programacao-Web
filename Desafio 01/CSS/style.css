@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(233, 233, 233);
+}
+
+menu {
+  display: none;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  padding-bottom: 7px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+nav {
+  background-color: rgb(255, 123, 123);
+  color: white;
+  height: 50px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  padding: 10px;
+}
+
+#container-h1 {
+  width: 100%;
+}
+
+#hamburguer {
+  text-align: left; 
+}
+
+#nome_cliente {
+  text-align: center;
+}
+
+nav:hover {
+  background-color: rgb(255, 218, 218);
+  color: black;
+}
+
+#sopaIcone, #saladaIcone {
+  width: 10%;
+}
+
+.container-bloco {
+  display: flex;
+  align-items: center;
+  height: 110px;
+  width: 100%;
+  border: 1px solid rgb(255, 123, 123);
+}
+
+.container-footer {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  width: 100%;
+  border: 1px solid rgb(255, 123, 123);
+
+}
+
+.container-align, a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nomeTopicos {
+  margin-top: 1.5%;
+}
+
+.salada-sopa, a {
+  color: rgb(255, 123, 123);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
