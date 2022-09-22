@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+header {
+    margin: auto;
+    margin-top: 5%;
+}
+
+section {
+    margin: auto;
+    width: 600px;
+    margin-top: 25px;
+
+}
+
+section h3 {
+    color: red;
+}

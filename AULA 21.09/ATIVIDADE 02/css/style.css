@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: grid;
+  gap: 15px;
+}
+
+section {
+  display: grid;
+  margin: auto;
+  margin-top: 1%;
+  background-color: cadetblue;
+  padding: 2%;
+  width: 550px;
+  border-radius: 12px;
+  gap: 4px;
+}
+
+section ul  {
+  list-style: none;
+}
+
+section  a {
+  text-decoration: none;
+  color: inherit;
+  color: white;
+}
