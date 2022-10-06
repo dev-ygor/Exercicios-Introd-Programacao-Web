@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(75, 75, 75);
+}
+
+.container-section {
+    width: 550px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    color: white;
+}
+
+.container-header {
+    display: flex;
+    padding: 25px;
+
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+
+.container-header img {
+    width: 30%;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.container-seguidores {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container-seguidores table tr td {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container-seguidores table tr th {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.container-links ul {
+    list-style: none;
+    background-color: cornflowerblue;
+}
+
+.container-links li {
+    padding: 7px;
+    color: white;
+} 
+
+#numero {
+    display: flex;
+    align-items: center;
+}
+
+.caixa-numero {
+    display: flex;
+    margin-left: 80%;
+    padding: 4px;
+    border-radius: 3px;
+    background-color: white;
+    color: cornflowerblue;
+}
+
+footer {
+    margin-top: 20px;
+}
